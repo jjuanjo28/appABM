@@ -1,0 +1,10 @@
+.algo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+#boton{
+    width: 200px;
+    background-color: greenyellow;
+}

@@ -1,0 +1,6 @@
+.show-cards{
+    display:flex;
+    flex-wrap: wrap;
+   background-color: yellowgreen; 
+   height: 80%; 
+}

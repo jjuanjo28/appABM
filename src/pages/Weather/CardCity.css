@@ -1,0 +1,15 @@
+#algo{
+    border: solid 2px black;
+    margin: 25px;
+    width: 16.5rem;
+    height: 30rem;
+    background-color: blue;
+}
+.card-body{
+    height: 13rem;
+    background-color: skyblue;
+}
+.ordenador{
+    display: flex;
+    justify-content: space-around;
+}
