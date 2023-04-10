@@ -17,6 +17,7 @@ import EditTask from "./pages/task_page/EditTask"
 import ShowUsers from "./pages/user_page/ShowUsers";
 import CreateUser from "./pages/user_page/CreateUser"
 import EditUser from "./pages/user_page/EditUser"
+import Curriculum from "./pages/Curriculum/Curriculum";
 
 function App() {
   
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/listaDeUsuarios" element={<ShowUsers user={user} />} />
+          <Route path="/curriculum" element={<Curriculum/>}/>
           <Route path="/login" element={<Login setUser={setUser} />} />
           <Route path="/createUser" element={<CreateUser />} />
 

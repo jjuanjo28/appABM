@@ -53,6 +53,16 @@ const Nav = ({ setLogged, setUser, user }) => {
                 </div>
               </li>
               <li className="nav-item">
+                <div
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  onClick={() => navigate("/curriculum")}
+                >
+                 <strong>CURRICULUM</strong>
+                </div>
+              </li>
+              <li className="nav-item">
                 <div className="nav-link" onClick={() => navigate("/editUser")}>
                   User Edit
                 </div>
